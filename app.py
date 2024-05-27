@@ -114,6 +114,7 @@ def main():
     with col3:
         st.metric("Total de compras", df["p1_compra"].count())
 
+    st.title('Resultados')
     # Graficado
     viz1, viz2 = st.columns(2)
     with viz1:
